@@ -16,7 +16,7 @@ function Chip({
       tabIndex={
         index === selectedUsers.length - 1 && isLastChipFocused ? 0 : -1
       }
-      className="flex bg-slate-100 p-2 rounded-full ml-2 items-center"
+      className="flex bg-slate-100 p-2 rounded-full ml-2 mt-2 items-center"
       onClick={() => setLastChipFocused(true)}
     >
       <Image
